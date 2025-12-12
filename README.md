@@ -49,20 +49,20 @@ Perfect for when you're in a game and want full control over YT Music without al
 
 All settings are editable in:
 
-    config.json
+config.json
 
 Default file:
-{
-    "target_process": "chrome.exe",
-    "volume_step": 0.05,
-    "hotkeys": {
-        "volume_down": "f2",
-        "volume_up": "f3",
-        "previous": "f7",
-        "play_pause": "f8",
-        "next": "f9"
+    {
+        "target_process": "chrome.exe",
+        "volume_step": 0.05,
+        "hotkeys": {
+            "volume_down": "f2",
+            "volume_up": "f3",
+            "previous": "f7",
+            "play_pause": "f8",
+            "next": "f9"
+        }
     }
-}
 
 You can customize:
 
@@ -85,12 +85,12 @@ Make sure "Add to PATH" is checked.
 2. Install dependencies
 From the project folder:
 
-pip install -r requirements.txt
+        pip install -r requirements.txt
 
 3. Build the .exe
 From the folder containing the script:
 
-pyinstaller --noconsole --onefile ytmusic_controller.py
+        pyinstaller --noconsole --onefile ytmusic_controller.py
 
 
 After building, your .exe will be in:
@@ -122,7 +122,6 @@ Right-click the tray icon:
         Turns off all global shortcuts.
         Useful if another app/game uses F2–F9.
         Click again to re-enable.
-
     2. Quit
         Stops the listener and closes the app completely.
 
@@ -130,4 +129,5 @@ Right-click the tray icon:
 
 Controls Browser’s audio only - your system volume stays unchanged.
 Use Chrome for YouTube Music.
+
 Works on Windows 10 and 11.
