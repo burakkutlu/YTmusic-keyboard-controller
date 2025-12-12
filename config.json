@@ -1,0 +1,11 @@
+{
+    "target_process": "chrome.exe",
+    "volume_step": 0.05,
+    "hotkeys": {
+        "volume_down": "f2",
+        "volume_up": "f3",
+        "previous": "f7",
+        "play_pause": "f8",
+        "next": "f9"
+    }
+}
