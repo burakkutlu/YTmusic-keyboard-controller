@@ -51,19 +51,6 @@ All settings are editable in:
 
 config.json
 
-Default file:
-{
-    "target_process": "chrome.exe",
-    "volume_step": 0.05,
-    "hotkeys": {
-        "volume_down": "f2",
-        "volume_up": "f3",
-        "previous": "f7",
-        "play_pause": "f8",
-        "next": "f9"
-    }
-}
-
 You can customize:
 
 - Which application to control (Chrome/Brave/etc.)
@@ -131,4 +118,5 @@ Controls Browser’s audio only - your system volume stays unchanged.
 Use Chrome for YouTube Music.
 
 Works on Windows 10 and 11.
+
 
