@@ -86,7 +86,6 @@ dist/ytmusic_controller.exe
 
 You can move this EXE anywhere.
 
-
 * How to Use
 
 - Starting the App: Double-click the .exe
@@ -118,5 +117,6 @@ Controls Browser’s audio only - your system volume stays unchanged.
 Use Chrome for YouTube Music.
 
 Works on Windows 10 and 11.
+
 
 
